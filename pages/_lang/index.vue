@@ -10,6 +10,16 @@
         </div>
       </div>
     </div>
+    <div class="home__title">{{ $t('home.title') }}</div>
+    <div class="home__wrapper">
+      <div class="home__wrapper__sub-title">{{ $t('home.sub-title') }}</div>
+      <div class="home__wrapper__description">{{ $t('home.description') }}</div>
+      <div class="home__wrapper__sign-up">
+        <NuxtLink :to="$i18n.path('signUp')" class="Header__Link" active-class="none" exact>
+          {{ $t('header.signUp') }}
+        </NuxtLink>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -31,7 +41,7 @@ export default {
 <style lang="scss">
   .home {
     height: 90vh;
-    background-image: linear-gradient(#fff, #c0c0c0);
+    background-image: linear-gradient(#ffffff, #00a89c);
     &__ventilators {
       display: flex;
       justify-content: center;
@@ -45,6 +55,34 @@ export default {
         background-color: #FC7D08;
         &__value {
           font-weight: bold;
+        }
+      }
+    }
+    &__title {
+      font-size: 50px;
+      margin-left: 30vw;
+    }
+    &__wrapper {
+      width: 650px;
+      margin: auto;
+    &__sub-title {
+       font-size: 50px;
+       font-weight: bold;
+     }
+     &__description {
+        margin-top: 15px;
+     }
+      &__sign-up {
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-end;
+        a {
+          display: block;
+          width: 200px;
+          text-align: center;
+          background-color: #009ea6;
+          color: #fff;
+          border-radius: 25px;
         }
       }
     }

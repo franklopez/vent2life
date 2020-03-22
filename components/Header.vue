@@ -60,6 +60,10 @@ export default {
           path: 'ourTeam'
         },
         {
+          label: 'header.companies',
+          path: 'companies'
+        },
+        {
           label: 'header.contacts',
           path: 'contacts'
         }

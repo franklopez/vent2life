@@ -3,6 +3,7 @@
     "home": "Home",
     "about": "About",
     "howItWorks": "How it works",
+    "companies": "Companies",
     "ourTeam": "Our Team",
     "contacts": "Contacts",
     "ventilators": "Ventilators",
@@ -12,13 +13,26 @@
     "portuguese": "pt"
   },
   "home": {
+    "title": "vent2life",
+    "sub-title": "right to repair",
+    "description": "O Vent2life é um projeto que nasceu do movimento 'Project Open Air' e utiliza a tecnologia enquanto instrumento de suporte e facilitação na resolução dos problemas identificados com o enorme esforço e pressão que está a incidir sobre o SNS, nomeadamente a falta de ventiladores."
   },
   "about": {
-   },
+    "title": "About",
+    "sub-title" : "this project",
+    "description-1": "O vent2life é um projeto que nasceu a partir do “Open Air Project”, que congrega um conjunto de conhecimentos técnicos e especializados essenciais para a reparação de equipamentos hospitalares.",
+    "description-2": "Os hospitais reportam os problemas desses equipamentos nesta plataforma, aliando a sua necessidade de resolução técnica ao conhecimento científico e tecnológico de uma ampla rede de contactos, no sentido de ultrapassarem as dificuldades existentes.",
+    "description-3": "Este é um trabalho colaborativo baseado numa economia partilhada   e na união de esforços de todos os técnicos com o objetivo de se apresentarem as soluções mais viáveis para cada problema."
+  },
   "OurTeam": {
   },
+  "companies": {
+    "title": "Companies",
+    "sub-title": "that help us"
+  },
   "howItWorks": {
-    "title": "How it works!",
+    "title": "ven2life",
+    "sub-title": "right to repair",
     "text-1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
     "text-2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
     "text-3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"

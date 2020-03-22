@@ -1,7 +1,12 @@
 <template>
   <div class="howItWorks">
-    <div class="howItWorks__title">
-      {{ $t('howItWorks.title') }}
+    <div class="howItWorks__project">
+      <div class="howItWorks__project__title">
+        {{ $t('howItWorks.title') }}
+      </div>
+      <div class="howItWorks__project__sub-title">
+        {{ $t('howItWorks.sub-title') }}
+      </div>
     </div>
     <div class="howItWorks__list">
       <div class="howItWorks__list__item">
@@ -62,11 +67,17 @@ export default {
   .howItWorks {
     background-color: rgb(255,202,110);
     height: 90vh;
-  &__title {
+  &__project {
+    display: flex;
+    margin-right: 50px;
+    justify-content: flex-end;
     padding-top: 40px;
     color: white;
     font-size: 80px;
-    text-align: center;
+    &__sub-title{
+      margin-left: 20px;
+      font-weight: bold;
+    }
   }
   &__list {
     padding-top: 50px;

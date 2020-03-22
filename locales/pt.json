@@ -5,6 +5,7 @@
     "howItWorks": "Como funciona",
     "ourTeam": "Equipa",
     "contacts": "Contactos",
+    "companies": "Companies",
     "ventilators": "Ventiladores",
     "logIn": "Entrar",
     "signUp" : "Registe-se",
@@ -12,10 +13,22 @@
     "portuguese": "pt"
   },
   "home": {
+    "title": "vent2life",
+    "sub-title": "right to repair",
+    "description": "O Vent2life é um projeto que nasceu do movimento 'Project Open Air' e utiliza a tecnologia enquanto instrumento de suporte e facilitação na resolução dos problemas identificados com o enorme esforço e pressão que está a incidir sobre o SNS, nomeadamente a falta de ventiladores."
   },
   "about": {
+    "title": "About",
+    "sub-title" : "this project",
+    "description-1": "O vent2life é um projeto que nasceu a partir do “Open Air Project”, que congrega um conjunto de conhecimentos técnicos e especializados essenciais para a reparação de equipamentos hospitalares.",
+    "description-2": "Os hospitais reportam os problemas desses equipamentos nesta plataforma, aliando a sua necessidade de resolução técnica ao conhecimento científico e tecnológico de uma ampla rede de contactos, no sentido de ultrapassarem as dificuldades existentes.",
+    "description-3": "Este é um trabalho colaborativo baseado numa economia partilhada   e na união de esforços de todos os técnicos com o objetivo de se apresentarem as soluções mais viáveis para cada problema."
   },
   "OurTeam": {
+  },
+  "companies": {
+    "title": "Empresas",
+    "sub-title": "que nos ajudaram"
   },
   "signUp": {
     "label-1": "Hospitais",
@@ -29,10 +42,11 @@
     "caption_3": "Aceda Aqui"
   },
   "howItWorks": {
-    "title": "Como funciona?",
-    "text-1": "1º Os equipamentos hospitalares apresentam problemas",
-    "text-2": "2º Técnicos especializados procuram identificar a solução para resolver",
-    "text-3": "3º O equipamento fica reparado e funcional"
+    "title": "ven2life",
+    "sub-title": "right to repair",
+    "text-1": "Os equipamentos hospitalares apresentam problemas",
+    "text-2": "Técnicos especializados procuram identificar a solução para resolver",
+    "text-3": "O equipamento fica reparado e funcional"
   },
   "contacts": {
   }
