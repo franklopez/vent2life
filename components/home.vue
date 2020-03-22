@@ -15,7 +15,7 @@
       <div class="home__wrapper__sub-title">{{ $t('home.sub-title') }}</div>
       <div class="home__wrapper__description">{{ $t('home.description') }}</div>
       <div class="home__wrapper__sign-up">
-        <NuxtLink :to="$i18n.path('signUp')" class="Header__Link" active-class="none" exact>
+        <NuxtLink  :to="{path: '/', hash: 'sign-up'}" v-scroll-to="{el: '#sign-up'}" exact>
           {{ $t('header.signUp') }}
         </NuxtLink>
       </div>
@@ -82,6 +82,7 @@ export default {
           text-align: center;
           background-color: #009ea6;
           color: #fff;
+          height: 30px;
           border-radius: 25px;
         }
       }

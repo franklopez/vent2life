@@ -1,5 +1,5 @@
 <template>
-<div class="sign-up">
+<div id="sign-up" class="sign-up">
   <div class="sign-up__list">
     <div class="sign-up__list__item">
       <div class="sign-up__list__item__icon">
