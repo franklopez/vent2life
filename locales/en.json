@@ -7,6 +7,7 @@
     "contacts": "Contacts",
     "ventilators": "Ventilators",
     "logIn": "Log In",
+    "signUp" : "Sign Up",
     "english": "en",
     "portuguese": "pt"
   },
@@ -21,6 +22,17 @@
     "text-1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
     "text-2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
     "text-3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+  },
+  "signUp": {
+    "label-1": "Hospitais",
+    "description_1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ",
+    "caption_1": "Aceda Aqui",
+    "label-2": "Empresa",
+    "description_2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ",
+    "caption_2": "Aceda Aqui",
+    "label-3": "Voluntário",
+    "description_3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ",
+    "caption_3": "Aceda Aqui"
   },
   "contacts": {
   }

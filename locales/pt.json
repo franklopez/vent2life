@@ -7,6 +7,7 @@
     "contacts": "Contactos",
     "ventilators": "Ventiladores",
     "logIn": "Entrar",
+    "signUp" : "Registe-se",
     "english": "en",
     "portuguese": "pt"
   },
@@ -16,11 +17,22 @@
   },
   "OurTeam": {
   },
+  "signUp": {
+    "label-1": "Hospitais",
+    "description_1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ",
+    "caption_1": "Aceda Aqui",
+    "label-2": "Empresa",
+    "description_2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ",
+    "caption_2": "Aceda Aqui",
+    "label-3": "Voluntário",
+    "description_3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ",
+    "caption_3": "Aceda Aqui"
+  },
   "howItWorks": {
-    "title": "Como funciona!",
-    "text-1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
-    "text-2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
-    "text-3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    "title": "Como funciona?",
+    "text-1": "1º Os equipamentos hospitalares apresentam problemas",
+    "text-2": "2º Técnicos especializados procuram identificar a solução para resolver",
+    "text-3": "3º O equipamento fica reparado e funcional"
   },
   "contacts": {
   }

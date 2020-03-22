@@ -20,6 +20,11 @@
       <div class="header-wrapper__buttons__login">
         <a class="Header__Link" href="https://sapo.pt">{{$t('header.logIn')}}</a>
       </div>
+      <div class="header-wrapper__buttons__signUp">
+        <NuxtLink :to="$i18n.path('signUp')" class="Header__Link" active-class="none" exact>
+          {{ $t('header.signUp') }}
+        </NuxtLink>
+      </div>
       <div class="header-wrapper__buttons__lang">
         <NuxtLink v-if="$i18n.locale === 'en'" :to="`/pt` + $route.fullPath" class="Header__Link" active-class="none" exact>
           {{ $t('header.portuguese') }}
@@ -102,6 +107,13 @@ export default {
           background-color: white;
           text-transform: uppercase;
           border-color: #009ea6;
+          border-radius: 25px;
+        }
+      }
+      &__signUp {
+        a {
+          background-color: #009ea6;
+          color: #fff;
           border-radius: 25px;
         }
       }
