@@ -30,9 +30,6 @@
 
 <script>
 export default {
-  head () {
-    return { title: this.$t('howItWorks.title') }
-  },
   data () {
     return {
       repairs: [
@@ -51,6 +48,9 @@ export default {
       ]
     }
   },
+  head () {
+    return { title: this.$t('howItWorks.title') }
+  }
 }
 </script>
 
