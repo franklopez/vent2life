@@ -1,19 +1,4 @@
-<template>
-  <Header />
-</template>
-
 <script>
-import Header from '~/components/Header'
-
-export default {
-  components: {
-    Header
-  }
-}
+import Index from '~/pages/_lang/index'
+export default Index
 </script>
-
-<style>
-  body {
-    font-family: Roboto;
-  }
-</style>

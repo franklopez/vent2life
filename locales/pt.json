@@ -1,0 +1,23 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "Acerca",
+    "howItWorks": "Como funciona",
+    "ourTeam": "Equipa",
+    "contacts": "Contactos",
+    "ventilators": "Ventiladores",
+    "logIn": "Entrar",
+    "english": "en",
+    "portuguese": "pt"
+  },
+  "home": {
+  },
+  "about": {
+  },
+  "OurTeam": {
+  },
+  "howItWorks": {
+  },
+  "contacts": {
+  }
+}

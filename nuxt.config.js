@@ -28,6 +28,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/i18n.js'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -39,6 +40,12 @@ export default {
   /*
   ** Nuxt.js modules
   */
+  router: {
+    middleware: 'i18n'
+  },
+  generate: {
+    routes: ['/', '/about', '/pt', '/pt/about']
+  },
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt'

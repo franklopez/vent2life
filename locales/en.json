@@ -1,0 +1,23 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "howItWorks": "How it works",
+    "ourTeam": "Our Team",
+    "contacts": "Contacts",
+    "ventilators": "Ventilators",
+    "logIn": "Log In",
+    "english": "en",
+    "portuguese": "pt"
+  },
+  "home": {
+  },
+  "about": {
+   },
+  "OurTeam": {
+  },
+  "howItWorks": {
+  },
+  "contacts": {
+  }
+}
