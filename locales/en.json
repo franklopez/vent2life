@@ -17,6 +17,10 @@
   "OurTeam": {
   },
   "howItWorks": {
+    "title": "How it works!",
+    "text-1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+    "text-2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut",
+    "text-3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
   },
   "contacts": {
   }

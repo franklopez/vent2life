@@ -1,31 +1,9 @@
 <template>
   <div>
-    <!--header class="Header">
-      <div class="container">
-        <h1 class="Header__Title">
-          Nuxt i18n
-        </h1>
-        <nav class="Header__Menu">
-          <NuxtLink :to="$i18n.path('')" class="Header__Link" exact>
-            {{ $t('links.home') }}
-          </NuxtLink>
-          <NuxtLink :to="$i18n.path('about')" class="Header__Link" exact>
-            {{ $t('links.about') }}
-          </NuxtLink>
-          <NuxtLink v-if="$i18n.locale === 'en'" :to="`/pt` + $route.fullPath" class="Header__Link" active-class="none" exact>
-            {{ $t('links.french') }}
-          </NuxtLink>
-          <NuxtLink v-else :to="$route.fullPath.replace(/^\/[^\/]+/, '')" class="Header__Link" active-class="none" exact>
-            {{ $t('links.english') }}
-          </NuxtLink>
-        </nav>
-      </div>
-    </header-->
     <Header />
     <Nuxt />
   </div>
 </template>
-
 <script>
 import Header from '../components/Header'
 
@@ -45,7 +23,7 @@ export default {
     color: #2e2f30;
     letter-spacing: 0.5px;
     font-size: 18px;
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     height: 100vh;
     margin: 0;
   }
@@ -97,4 +75,5 @@ export default {
     font-weight: 300;
     padding-bottom: 30px;
   }
+
 </style>
