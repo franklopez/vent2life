@@ -49,5 +49,15 @@
     "text-3": "O equipamento fica reparado e funcional"
   },
   "contacts": {
+    "title": "Contacts",
+    "address" : {
+      "name": "Vent2ndLife",
+      "street": "Bleicherweg 10,",
+      "cp":"8002 Zürich",
+      "country":"Switzerland"
+    },
+    "legal": "Termos Legais",
+    "Privacy": "Politica de Privacidade",
+    "copywrite": "Copyright (c) 2020 - Vent2ndLife all rights reserved"
   }
 }
