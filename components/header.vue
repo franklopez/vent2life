@@ -1,10 +1,10 @@
 <template>
   <div class="header-wrapper">
     <div class="header-wrapper__logo">
-      <img alt="" src="~assets/logo.png">
+      <img alt="" src="/img/logo.png">
     </div>
     <div class="header-wrapper__menu">
-      <NuxtLink v-for="item in menu_items" :key="item.label" :to="{path: '/', hash: item.path}" v-scroll-to="{el: item.anchor}" exact>
+      <NuxtLink v-for="item in menu_items" :key="item.label" :to="{path: '', hash: item.path}" v-scroll-to="{el: item.anchor}" exact>
         {{ $t(item.label) }}
       </NuxtLink>
     </div>
